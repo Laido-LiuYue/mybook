@@ -6,8 +6,8 @@ after_script:
     - gitbook build
     - cd ./_book
     - git init
-    - git config user.name "${Laido-LiuYue}"
-    - git config user.email "${578201842@qq.com}"
+    - git config user.name "${USER_NAME}"
+    - git config user.email "${USER_EMAIL}"
     - cp ../CNAME .
     - git add .
     - git commit -m "publish gitbook"
